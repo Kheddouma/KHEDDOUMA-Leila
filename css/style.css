@@ -1,0 +1,42 @@
+@import url(Account.css);
+@import url(Header.css);
+@import url(clock.css);
+@import url(homepage-grid.css);
+@import url(homepage-grid2.css);
+@import url(footer.css);
+@import url(responsive.css);
+
+/*************************************************************************************/
+html,
+body {
+  width: 100%;
+  height: 200vh;
+  background: #090f23;
+  color: white;
+  font-family: inkwell sans a, inkwell sans b;
+}
+body {
+  position: relative;
+  display: grid;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1600px;
+  box-sizing: border-box;
+  /*grid-template-areas: 
+    "main"
+    "footer"*/
+
+  font: 600 62.5% "Lato", sans-serif;
+  justify-content: space-between;
+  z-index: -4;
+}
+.main {
+  width: 90%;
+
+  margin-left: 5%;
+
+  margin-top: 0;
+  position: relative;
+  z-index: 1;
+}
