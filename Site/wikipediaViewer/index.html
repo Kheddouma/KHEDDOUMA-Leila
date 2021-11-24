@@ -1,0 +1,42 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="a Wikepedia Viewer">
+  <meta name="author" content="Yingjie Hu">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>a Wikepedia Viewer</title>
+  <link rel="stylesheet" href="css/main.css">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="scripts/main.js"></script>
+</head>
+
+<body>
+
+  <div class="container text-center">
+    <form id="form" class="form">
+      <input name="input" class="form-control" id="term" type="search" required placeholder="Search Wikipedia...">
+      <button type="submit" value="click">
+        <span id="search-icon"><i class="fas fa-search"></i></span>
+      </button>
+      <span class="formbutton" id="clear">Clear</span>
+      <!-- <a href="#" class="formbutton" id="clear">Clear</a> -->
+      <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="formbutton"><i class="fas fa-random"></i>Random</a>
+    </form>
+
+    <div id="contents">
+    </div>
+
+  </div>
+
+  <div class="container justify-content-center text-light text-center" id="footer" >
+    Written and Coded By <a href="http://yingjiehu.com" target="_blank">KHEDDOUMA Leila</a> with <span style="color:red"><i class="fas fa-heart"></i></span><br>
+    View <a href="https://www.google.fr/" target="_blank">source code</a> at GitHub and latest <a href="https://www.google.fr/" target="_blank">updated website</a>
+  </div>
+</body>

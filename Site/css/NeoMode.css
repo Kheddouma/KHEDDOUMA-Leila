@@ -1,0 +1,92 @@
+.containerBlack {
+  margin-top: 70px;
+  position: fixed;
+  z-index: 15;
+
+  left: 1rem;
+}
+
+.switch {
+  display: inline-block;
+  height: 60px;
+  position: relative;
+  width: 34px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+.slider:before {
+  background-color: rgb(233, 231, 231);
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 26px;
+}
+
+.containerBlack input:checked + .slider {
+  background: linear-gradient(
+    -45deg,
+    rgba(0, 0, 0, 0.22),
+    rgba(255, 255, 255, 0.25)
+  );
+  box-shadow: -6px -6px 15px rgb(75, 75, 75),
+    6px 6px 10px 0 rgba(255, 255, 255, 0.3);
+}
+
+.containerBlack input:checked + .slider:before {
+  transform: translateY(-26px);
+  background-color: white;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.22),
+    rgba(206, 205, 205, 0.25)
+  );
+}
+
+.slider.round {
+  border-radius: 34px;
+  background-color: white;
+  box-shadow: 6px 6px 10px 0 rgba(0, 0, 0, 0.3);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.22),
+    rgba(255, 255, 255, 0.25)
+  );
+}
+
+.slider.round:hover {
+  box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.3);
+}
+
+.slider.round:before {
+  border-radius: 50%;
+  background-color: rgb(75, 75, 75);
+  background: linear-gradient(45deg, black, rgb(75, 75, 75, 0.25));
+}
+/*
+body.dark-mode {
+  /* background-color: rgb(150, 114, 114);*
+  background-color: #434343;
+  color: #fff;
+}
+
+body.light-mode {
+  /* background-color: rgb(75, 75, 75);*
+  background-color: rgb(206, 201, 201);
+  color: #23272a;
+}*/

@@ -1,0 +1,8 @@
+/********Account**************/
+
+.Account {
+  position: fixed;
+  z-index: 15;
+  top: 0.9rem;
+  left: 1rem;
+}

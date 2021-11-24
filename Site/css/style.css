@@ -1,0 +1,62 @@
+@import url(Account.css);
+/*
+@import url(NeoMode.css);*/
+@import url(Header.css);
+@import url(neon.css);
+@import url(centre.css);
+@import url(menu.css);
+@import url(cardFlip.css);
+@import url(miniCardGrid.css);
+@import url(magicCard.css);
+@import url(main.css);
+@import url(footer.css);
+@import url(abonnement.css);
+
+@mixin font-size($sizeValue: 1.6) {
+  font-size: $sizeValue + rem;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1600px;
+
+  align-items: center;
+  justify-content: center;
+  font: 600 62.5% "Lato", sans-serif;
+  background-color: #434343;
+  z-index: -4;
+}
+/********************overflow  scroll start******************/
+html {
+  --scrollbarBG: #18191f;
+  --thumbBG: #434343;
+}
+body::-webkit-scrollbar {
+  width: 20px;
+  height: 50px;
+}
+body {
+  scrollbar-width: thin;
+
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 16px;
+  border: 1px solid #575656;
+}
+/********************overflow  scroll end******************/

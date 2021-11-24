@@ -1,0 +1,71 @@
+/*.card1 {
+  width: 260px;
+  height: 410px;
+  margin-right: 40px;
+  margin-left: 0;
+  background-color: royalblue;
+}*/
+
+.card1 .box {
+  width: 100px;
+  height: 300px;
+  margin-left: 10px;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.card1 .box:before {
+  content: "";
+  background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 260px;
+  height: 410px;
+  z-index: 1;
+  border-radius: 12px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.card1 .box:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 400px;
+  background: #000;
+  z-index: 2;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.header-card-title {
+  width: 100%;
+  height: 100%;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 3;
+}
+.card1 h2 {
+  color: white;
+  display: block;
+  /*font-size: 1.5em;*/
+
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  position: relative;
+  z-index: 4;
+  font-family: MD Primer Bold, Rubik, Lato, Lucida Grande, Lucida Sans Unicode,
+    Tahoma, Sans-Serif;
+
+  font-size: clamp(1.8rem, calc(1.8rem + 0.2vw), 3rem);
+  font-weight: 800;
+}

@@ -1,0 +1,8 @@
+.centre {
+  background-color: transparent;
+  margin-top: 150px;
+}
+
+.container {
+  flex-wrap: wrap;
+}

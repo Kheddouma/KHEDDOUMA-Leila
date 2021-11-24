@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>CSS</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body >   
+
+  <div class="Account">
+
+    <a href="/form-checker/index.html">        
+    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17 1.7C11.5335 1.7 6.48243 4.61655 3.74917 9.35C1.0172 14.0835 1.0172 19.9165 3.74917 24.65C6.48246 29.3835 11.5335 32.3 17 32.3C20.4918 32.3133 23.8809 31.1193 26.5917 28.9199C29.9014 26.2557 31.9559 22.3365 32.2602 18.0984C32.5657 13.8603 31.0954 9.68748 28.2003 6.57682C25.3063 3.46636 21.249 1.69986 17.0003 1.69986L17 1.7ZM27.9956 24.411C27.2651 22.1412 25.014 20.2514 21.9925 19.2447C20.7069 20.6405 18.8967 21.4361 17 21.4361C15.1021 21.4347 13.292 20.6405 12.0074 19.2447C8.98463 20.2514 6.73335 22.1413 6.00439 24.411C4.20212 21.7388 3.43579 18.5008 3.8475 15.3041C4.25921 12.1073 5.82242 9.17082 8.24234 7.04174C10.6622 4.91276 13.7752 3.7387 16.9987 3.7387C20.2221 3.7387 23.3353 4.91276 25.7564 7.04041C28.1763 9.16939 29.7395 12.1057 30.1513 15.3027C30.563 18.4995 29.7966 21.7376 27.9957 24.411L27.9956 24.411Z" fill="white"></path>
+    <path d="M22.5049 13.6092C22.5049 16.9919 20.0399 19.736 17 19.736C13.9586 19.736 11.4937 16.9921 11.4937 13.6092C11.4937 10.2251 13.9587 7.48236 17 7.48236C20.0401 7.48236 22.5049 10.2249 22.5049 13.6092Z" fill="white"></path>
+    </svg>
+    </a>
+    
+  </div>
+  
+   
+  
+  <div class="header">
+    <p class="logo "></p>
+    <a href="#" class="" target="" title="" itemprop=""><i class="fa fa-apple" id="apple"></i></a>
+    <a href="#" class="" target="" title="" itemprop=""><i class="fa fa-twitter" id="twitter"></i></a>
+    <a href="#" class="" target="" title="" itemprop=""><i class="fa fa-github-square github" id="github"></i></a>
+    <a href="#" class="" target="" title="" itemprop=""><i class="fa fa-facebook-square" id="facebook"></i></a>
+    <!--
+    <i class="fa fa-apple" id="apple"></i>
+    
+    <i class="fa fa-twitter" id="twitter"></i>
+    <i class="fa fa-github-square github" id="github"></i>
+    <i class="fa fa-facebook-square" id="facebook"></i>
+  -->
+  </div>
+
+
+
+  <div class="menu">
+        
+    <nav class="container">
+      <p class="tags "></p>
+      <span><a href="./index.html" class="tag" ">Accueil</a></span>
+      <span><a href="./AboutMe/index.html" class="tag">About</a></span>
+      <span><a href="./Contact/index.html" class="tag active">Contact</a></span>
+      <span><a href="/form-checker/index.html" class="tag">Inscription</a></span>
+     <!-- <span><a href="#" class="more">more...</a></span>-->
+      <label for="" >
+        <input type="search" class="tag_search" placeholder="Tag search...">
+        
+        <a href="#" class="jetpack-search-filter__link">
+    
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15.0726 10.4326C12.4801 10.4326 10.4 12.5451 10.4 15.1053C10.4 17.6978 12.5125 19.7779 15.0726 19.7779C17.6651 19.7779 19.7453 17.6654 19.7453 15.1053C19.744 12.544 17.664 10.4326 15.0726 10.4326Z" fill="white"></path>
+          <path d="M16.0327 0.447479C7.42401 0.447479 0.447693 7.4238 0.447693 16.0324C0.447693 24.6398 7.42401 31.6161 16.0314 31.6161C24.64 31.6161 31.6163 24.6398 31.6163 16.0324C31.6163 7.4238 24.64 0.447479 16.0327 0.447479ZM23.6163 24.0324C23.3926 24.2562 23.0401 24.385 22.6563 24.385C22.2726 24.385 21.9526 24.2575 21.6963 24.0324L18.7526 21.0887L18.4651 21.2487C17.4088 21.825 16.2576 22.145 15.0724 22.145C11.1998 22.145 8.06509 19.0087 8.06509 15.1376C8.06509 11.265 11.2013 8.13023 15.0724 8.13023C18.9451 8.13023 22.0798 11.2665 22.0798 15.1376C22.0798 16.5138 21.6961 17.8251 20.9273 18.9776L20.7348 19.2976L23.6473 22.2101C23.8711 22.4664 24.0311 22.7864 24.0311 23.1376C23.9998 23.4563 23.8723 23.7763 23.616 24.0326L23.6163 24.0324Z" fill="white"></path>
+          </svg>
+          </a>
+                
+      </label>
+    </nav>
+  </div>
+
+  <div class="neon">
+           
+    <a href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        vert button
+    </a>
+    <a href="./wikipediaViewer/index.html">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Search Wikipedia
+    </a>
+    <a href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      bleu button
+    </a>
+     
+    
+        </div>
+  
+  
+  <div class="centre">
+        
+        <div class="cards">
+            
+
+            <div class="card1">
+                    
+                    <div  class="box">
+                         <h2 class="header-card-title">
+                             kheddouma leila kheddouma leila khedouma
+                        
+                         </h2>
+                    </div>
+            </div>
+            
+            
+        
+            <div class="card2">
+        
+                <div class="card">
+      <div class="card-info">
+        <span class="card-grad--video">Video</span>
+        <span>09 February 2019</span>
+      </div>
+    
+      <div class="card-heading">
+        <a href="#" target="_blank">Button - Fluent Design-Like</a>
+      </div>
+    
+      <div class="card-tags">
+        <div class="card-tag">button</div>
+      </div>
+                </div>
+                
+                <div class="card">
+      <div class="card-info">
+        <span class="card-grad--shot">Shot</span>
+        <span>29 March 2019</span>
+      </div>
+    
+      <div class="card-heading">
+        <a href="#" target="_blank">Task List</a>
+      </div>
+    
+      <div class="card-tags">
+        <div class="card-tag">task-list</div>
+        <div class="card-tag">app</div>
+      </div>
+                </div>
+                
+                <div class="card">
+      <div class="card-info">
+        <span class="card-grad--video">Video</span>
+        <span>16 April 2019</span>
+      </div>
+    
+      <div class="card-heading">
+        <a href="#" target="_blank">Radio Buttons</a>
+      </div>
+    
+      <div class="card-tags">
+        <div class="card-tag">Radio</div>
+      </div>
+                </div>      
+                <div class="card">
+        <div class="card-info">
+          <span class="card-grad--video">Video</span>
+          <span>09 march 2019</span>
+        </div>
+      
+        <div class="card-heading">
+          <a href="#" target="_blank">Button - Fluent Design-Like</a>
+        </div>
+      
+        <div class="card-tags">
+          <div class="card-tag">button</div>
+        </div>
+                  </div>
+            
+                  
+                <div class="card">
+        <div class="card-info">
+          <span class="card-grad--video">Video</span>
+          <span>16 April 2019</span>
+        </div>
+      
+        <div class="card-heading">
+          <a href="#" target="_blank">Radio Buttons</a>
+        </div>
+      
+        <div class="card-tags">
+          <div class="card-tag">Radio</div>
+        </div>
+                  </div>      
+                  <div class="card">
+          <div class="card-info">
+            <span class="card-grad--video">Video</span>
+            <span>09 march 2019</span>
+          </div>
+        
+          <div class="card-heading">
+            <a href="#" target="_blank">Button - Fluent Design-Like</a>
+          </div>
+        
+          <div class="card-tags">
+            <div class="card-tag">button</div>
+          </div>
+                    </div>
+            </div>
+
+            
+              
+       
+              
+            
+        </div>
+  </div>
+
+
+
+  <div class="main">
+    <div class="contenue">
+      
+<!--
+      <div class="block">
+        <div class="overlay">
+          <img src="http://drh.img.digitalriver.com/DRHM/Storefront/Site/atvi/cm/images/site/play-button-overlay.png" alt="Play" />
+        </div>
+        <img src="https://pen-online.com/fr/wp-content/uploads/2021/02/17171114/%E5%B1%B1%E4%B8%8B%E9%81%94%E9%83%8E%E3%80%80%E3%80%8CFor-You%E3%80%8D-1024x1011.jpg" alt="Image" />
+      </div>
+
+      
+-->
+      <div class="card-work">
+        <div class="card-work__img">
+            <img  src="https://picsum.photos/350/200"/>
+        </div>
+        
+        
+        <div class="card-work__header"> 
+            <div class="card-work__logo">
+                <img  src="https://picsum.photos/40/40"/>
+            </div>
+            
+            <div class="card-wrok__info">
+                <p class="title"> Llamafact - Facturación Electrónica </p>
+                <p> Huánuco </p>
+            </div>
+            
+            <div class="card-work__tag">
+                <div class="tag">
+                    <button title="like">
+                        <span class="like">like</span>
+                    </button>
+                    <button title="comment">
+                        <span class="comment">comment</span>
+                    </button>   
+                    <button title="views">
+                        <span class="views">views</span>
+                    </button>          
+                </div>
+                
+            </div>
+        </div>
+      </div> 
+
+      <div class="card-work">
+        <div class="card-work__img">
+            <img  src="https://picsum.photos/200/300"/>
+        </div>
+        
+        
+        <div class="card-work__header"> 
+            <div class="card-work__logo">
+                <img  src="https://picsum.photos/40/40"/>
+            </div>
+            
+            <div class="card-wrok__info">
+                <p class="title"> Llamafact - Facturación Electrónica </p>
+                <p> Huánuco </p>
+            </div>
+            
+            <div class="card-work__tag">
+                <div class="tag">
+                    <button title="like">
+                        <span class="like">like</span>
+                    </button>
+                    <button title="comment">
+                        <span class="comment">comment</span>
+                    </button>   
+                    <button title="views">
+                        <span class="views">views</span>
+                    </button>          
+                </div>
+                
+            </div>
+        </div>
+      </div> 
+
+      <div class="card-work">
+        <div class="card-work__img">
+            <img  src="https://picsum.photos/350/200"/>
+        </div>
+        
+        
+        <div class="card-work__header"> 
+            <div class="card-work__logo">
+                <img  src="https://picsum.photos/40/40"/>
+            </div>
+            
+            <div class="card-wrok__info">
+                <p class="title"> Llamafact - Facturación Electrónica </p>
+                <p> Huánuco </p>
+            </div>
+            
+            <div class="card-work__tag">
+                <div class="tag">
+                    <button title="like">
+                        <span class="like">like</span>
+                    </button>
+                    <button title="comment">
+                        <span class="comment">comment</span>
+                    </button>   
+                    <button title="views">
+                        <span class="views">views</span>
+                    </button>          
+                </div>
+                
+            </div>
+        </div>
+      </div> 
+
+      <div class="card-work">
+        <div class="card-work__img">
+            <img  src="https://picsum.photos/200/300"/>
+        </div>
+        
+        
+        <div class="card-work__header"> 
+            <div class="card-work__logo">
+                <img  src="https://picsum.photos/40/40"/>
+            </div>
+            
+            <div class="card-wrok__info">
+                <p class="title"> Llamafact - Facturación Electrónica </p>
+                <p> Huánuco </p>
+            </div>
+            
+            <div class="card-work__tag">
+                <div class="tag">
+                    <button title="like">
+                        <span class="like">like</span>
+                    </button>
+                    <button title="comment">
+                        <span class="comment">comment</span>
+                    </button>   
+                    <button title="views">
+                        <span class="views">views</span>
+                    </button>          
+                </div>
+                
+            </div>
+        </div>
+      </div> 
+      
+ <div class="card-work">
+        <div class="card-work__img">
+            <img  src="https://picsum.photos/350/200"/>
+        </div>
+        
+        
+        <div class="card-work__header"> 
+            <div class="card-work__logo">
+                <img  src="https://picsum.photos/40/40"/>
+            </div>
+            
+            <div class="card-wrok__info">
+                <p class="title"> Llamafact - Facturación Electrónica </p>
+                <p> Huánuco </p>
+            </div>
+            
+            <div class="card-work__tag">
+                <div class="tag">
+                    <button title="like">
+                        <span class="like">like</span>
+                    </button>
+                    <button title="comment">
+                        <span class="comment">comment</span>
+                    </button>   
+                    <button title="views">
+                        <span class="views">views</span>
+                    </button>          
+                </div>
+                
+            </div>
+        </div>
+      </div> 
+
+      <div class="card-work">
+        <div class="card-work__img">
+            <img  src="https://picsum.photos/200/300"/>
+        </div>
+        
+        
+        <div class="card-work__header"> 
+            <div class="card-work__logo">
+                <img  src="https://picsum.photos/40/40"/>
+            </div>
+            
+            <div class="card-wrok__info">
+                <p class="title"> Llamafact - Facturación Electrónica </p>
+                <p> Huánuco </p>
+            </div>
+            
+            <div class="card-work__tag">
+                <div class="tag">
+                    <button title="like">
+                        <span class="like">like</span>
+                    </button>
+                    <button title="comment">
+                        <span class="comment">comment</span>
+                    </button>   
+                    <button title="views">
+                        <span class="views">views</span>
+                    </button>          
+                </div>
+                
+            </div>
+        </div>
+      </div> 
+
+      <div class="card-work">
+        <div class="card-work__img">
+            <img  src="https://picsum.photos/350/200"/>
+        </div>
+        
+        
+        <div class="card-work__header"> 
+            <div class="card-work__logo">
+                <img  src="https://picsum.photos/40/40"/>
+            </div>
+            
+            <div class="card-wrok__info">
+                <p class="title"> Llamafact - Facturación Electrónica </p>
+                <p> Huánuco </p>
+            </div>
+            
+            <div class="card-work__tag">
+                <div class="tag">
+                    <button title="like">
+                        <span class="like">like</span>
+                    </button>
+                    <button title="comment">
+                        <span class="comment">comment</span>
+                    </button>   
+                    <button title="views">
+                        <span class="views">views</span>
+                    </button>          
+                </div>
+                
+            </div>
+        </div>
+      </div> 
+
+      <div class="card-work">
+        <div class="card-work__img">
+            <img  src="https://picsum.photos/200/300"/>
+        </div>
+        
+        
+        <div class="card-work__header"> 
+            <div class="card-work__logo">
+                <img  src="https://picsum.photos/40/40"/>
+            </div>
+            
+            <div class="card-wrok__info">
+                <p class="title"> Llamafact - Facturación Electrónica </p>
+                <p> Huánuco </p>
+            </div>
+            
+            <div class="card-work__tag">
+                <div class="tag">
+                    <button title="like">
+                        <span class="like">like</span>
+                    </button>
+                    <button title="comment">
+                        <span class="comment">comment</span>
+                    </button>   
+                    <button title="views">
+                        <span class="views">views</span>
+                    </button>          
+                </div>
+                
+            </div>
+        </div>
+      </div> 
+     
+
+     
+       
+     
+      
+
+    </div>
+   
+
+
+    <div class="slidbar">
+      <div class="actualite ">
+
+        <div class="acualiteNow">
+           
+          <div class="box rotate">
+            <div class="fill">
+              <img src="https://picsum.photos/200/300.webp" alt="">                     
+            </div>                
+                 
+          </div>
+
+          <div class="P-actualite">
+            <p> Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. 
+              Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, 
+              quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+            <p><a href="#nogo" onclick="document.getElementById('lirelasuite').style.display = 'block'; this.style.display = 'none';">Lire la suite...</a></p>
+            <p id="lirelasuite">
+              
+              Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. 
+              Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, 
+              par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker)
+           </p>           
+          </div>
+         
+           
+        </div>
+
+        <div class="acualiteNow">
+           
+          <div class="box rotate">
+            <div class="fill">
+              <img src="https://picsum.photos/200/300.webp" alt="">                     
+            </div>                
+                 
+          </div>
+
+          <div class="P-actualite">
+            <p> Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. 
+              Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, 
+              quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+            <p><a href="#nogo" onclick="document.getElementById('lirelasuite').style.display = 'block'; this.style.display = 'none';">Lire la suite...</a></p>
+            <p id="lirelasuite">
+              
+              Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. 
+              Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, 
+              par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker)
+           </p>           
+          </div>
+         
+           
+        </div>
+        
+
+       
+  
+         
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="abonnement">
+   
+
+    <div class="choix">
+      
+      <div class="cardChoix choix1">
+        <i class="fas fa-battery-quarter fa-2x"></i>                       
+        <div class="card-footer"><a href="" class="button btn btn-dark"><i class="fas fa-paper-plane"></i> Pay via Paytm</a>
+        </div> 
+    </div>    
+      
+
+    <div class="cardChoix  choix2">
+        <i class="fas fa-battery-quarter fa-2x"></i>                       
+        <div class="card-footer"><a href="" class="button btn btn-dark"><i class="fas fa-paper-plane"></i> Pay via Paytm</a>
+        </div> 
+    </div> 
+    <div class="cardChoix  choix3">
+      <i class="fas fa-battery-quarter fa-2x"></i>                       
+      <div class="card-footer"><a href="" class="button btn btn-dark"><i class="fas fa-paper-plane"></i> Pay via Paytm</a>
+      </div> 
+  </div>
+  <div class="cardChoix  choix4">
+    <i class="fas fa-battery-quarter fa-2x"></i>                       
+    <div class="card-footer"><a href="" class="button btn btn-dark"><i class="fas fa-paper-plane"></i> Pay via Paytm</a>
+    </div> 
+</div>
+  
+
+
+    </div>
+  </div>
+
+ 
+  <footer class="flex-rw">
+  
+    <ul class="footer-list-top">
+      <li>
+        <h4 class="footer-list-header">About Pavilion</h4></li>
+      <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">GET TO KNOW US</a></li>
+      <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">PROMOS</a></li>
+      <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">BECOME A RETAILER</a></li>
+  
+      <li><a href='#' itemprop="significantLink" class="generic-anchor footer-list-anchor">JOB OPENINGS</a></li>
+  
+      <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">EVENTS</a></li>
+    </ul>
+
+
+
+    <ul class="footer-list-top">
+      <li>
+        <h4 class="footer-list-header">The Gift Selection</h4></li>
+  
+  
+      <li><a href='#' class="generic-anchor footer-list-anchor">ANGEL FIGURINES</a></li>
+      <li><a href='#' class="generic-anchor footer-list-anchor">HOME DECOR</a></li>
+      <li><a href='#' class="generic-anchor footer-list-anchor">MUGS</a></li>
+      <li><a href='#' class="generic-anchor footer-list-anchor">PET LOVER</a></li>
+      <li><a href='#' class="generic-anchor footer-list-anchor" target="_blank">HANDBAGS & JEWELRY</a></li>
+    </ul>
+
+
+
+    <ul class="footer-list-top">
+      <li id='help'>
+        <h4 class="footer-list-header">Please Help Me</h4></li>
+      <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT</a></li>
+      <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
+      <li id='find-a-store'><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">STORE LOCATOR</a></li>
+      <li id='user-registration'><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">NEW USERS</a></li>
+      <li id='order-tracking'><a href='#' itemprop="significantLink" class="generic-anchor footer-list-anchor">ORDER STATUS</a></li>
+    </ul>
+
+
+
+    <section class="footer-social-section flex-rw">
+        <span class="footer-social-overlap footer-social-connect">
+        CONNECT <span class="footer-social-small">with</span> US
+        </span>
+        <span class="footer-social-overlap footer-social-icons-wrapper">
+        <a href="#" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fa fa-pinterest"></i></a>
+        <a href="#" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="generic-anchor" target="_blank" title="Youtube" itemprop="significantLink"><i class="fa fa-youtube"></i></a>
+        <a href="#" class="generic-anchor" target="_blank" title="Google Plus" itemprop="significantLink"><i class="fa fa-google-plus"></i></a>
+        </span>
+    </section>
+
+
+
+    <section class="footer-bottom-section flex-rw">
+  <div class="footer-bottom-wrapper">   
+  <i class="fa fa-copyright" role="copyright">
+   
+  </i> 2021 Pavilion in <address class="footer-address" role="company address">Paris, France</address><span class="footer-bottom-rights"> - All Rights Reserved - </span>
+      </div>
+      <div class="footer-bottom-wrapper">
+      <a href="#" class="generic-anchor" rel="nofollow">Terms</a> | <a href="#" class="generic-anchor" rel="nofollow">Privacy</a>
+        </div>
+    </section>
+
+
+
+  </footer>
+
+   
+    <script src="./script.js"></script>
+    
+</body>
+</html>
