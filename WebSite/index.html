@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!--font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  
+<!---header start-->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"> <span>L</span>ayali</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#package">package</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </i>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+<!---header end-->
+<!---form start-->
+    <div class="login-form-container">
+  
+        <i class="fas fa-times" id="form-close"></i>
+    
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="anter your email">
+            <input type="password" class="box" placeholder="anter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">lol</a></p>
+        </form>
+    </div>
+<!---form end-->
+
+<!---home section starts-->
+<section class="home" id="home">
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>dicover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="./vd/Anime - 84574.mp4"></span>
+        <span class="vid-btn" data-src="./vd/Train - 90408.mp4"></span>      
+        <span class="vid-btn" data-src="./vd/Music - 98287.mp4"></span>
+        <span class="vid-btn" data-src="./vd/Girl - 98288.mp4"></span>
+        <span class="vid-btn" data-src="./vd/Man - 95088.mp4"></span>
+        <span class="vid-btn" data-src="./vd/Ninja - 83274.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="./vd/Anime - 84574.mp4" id="video-slider" loop autoplay muted></video>      
+    </div>
+</section>
+<!---home section end-->
+      <script src="./script.js"></script>
+</body>
+</html>
