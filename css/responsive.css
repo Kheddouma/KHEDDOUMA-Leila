@@ -1,3 +1,13 @@
+@media (max-width: 650px) {
+  .wrapper {
+    visibility: hidden;
+  }
+  .Account {
+    visibility: hidden;
+  }
+}
+
+/********************************************/
 @media (max-width: 1032px) {
   .weweb {
     font-size: 45px;

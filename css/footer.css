@@ -33,6 +33,9 @@ footer {
   bottom: 0;
   overflow: hidden;
 }
+.footer a {
+  margin-left: 20px;
+}
 
 #lightings {
   bottom: -100px;
