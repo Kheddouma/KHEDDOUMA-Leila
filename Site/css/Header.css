@@ -1,15 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comforter+Brush&family=Dancing+Script&family=Lobster&display=swap");
+
+@media (max-width: 490px) {
+  #apple,
+  #twitter,
+  #github,
+  #facebook {
+    visibility: hidden;
+  }
+
+  .header {
+    padding: 2rem 100px;
+  }
+}
+
 .header {
   left: 0;
   right: 0;
 
   top: 0px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   height: 60px;
   width: 100%;
   background: #18191f;
 }
+
+.header .logo {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 50%;
+
+  /* font-family: 'Architects Daughter', cursive;
+font-family: 'Comforter Brush', cursive;
+font-family: 'Dancing Script', cursive;
+ font-family: "Lobster", cursive;*/
+  font-family: "Architects Daughter", cursive;
+}
+
+.header .logo span {
+  color: rgb(226, 106, 27);
+}
+
 .header a {
   margin-top: 0;
 }
