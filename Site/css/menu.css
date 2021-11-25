@@ -8,7 +8,26 @@
     opacity: 0;
   }*/
 }
-
+@media (max-width: 991px) {
+  .container {
+    background-image: none;
+  }
+  .container label {
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+@media (max-width: 660px) {
+  .container {
+    height: 80px;
+  }
+}
+@media (max-width: 610px) {
+  .container {
+    height: 110px;
+  }
+}
 /***********************************************/
 
 .menu {
@@ -23,7 +42,7 @@ a {
   color: #212534;
 }
 a.tag {
-  color: rgb(201, 191, 191);
+  color: rgb(201, 191, 191); /*******************************/
   display: block;
   font-size: 1rem;
   padding: 0.3em 0.85em;
@@ -46,7 +65,7 @@ a.tag:hover {
   position: absolute;
   top: 70px;
   left: 5%;
-  padding: 1em;
+  padding: 1em; /****3*/
   padding-left: 1em;
   display: flex;
   width: 90%;
@@ -120,7 +139,7 @@ a.tag:hover {
   transition: all 250ms ease-in-out;
 }
 
-.tag_search {
+.container label .tag_search {
   position: relative;
   z-index: 1;
   display: block;
