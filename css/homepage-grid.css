@@ -41,7 +41,7 @@
 
 .bio-grid {
   display: grid;
-  font-size: 0.8rem;
+
   grid-template-columns: minmax(10px, 1fr) -webkit-max-content;
   grid-template-columns: minmax(10px, 1fr) max-content;
 }
