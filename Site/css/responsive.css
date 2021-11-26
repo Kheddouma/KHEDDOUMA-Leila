@@ -35,8 +35,9 @@
   }
 }
 /*********************centre cards********************/
-@media (max-width: 650px) {
+
+@media (min-width: 650px) {
   .main {
-    background-color: turquoise;
+    display: flex;
   }
 }

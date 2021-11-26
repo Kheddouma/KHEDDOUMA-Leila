@@ -6,7 +6,7 @@
   border: none;
   border-radius: 16px;
   padding: 5px;
-  display: flex;
+
   flex-wrap: wrap;
   background-color: transparent;
 }
