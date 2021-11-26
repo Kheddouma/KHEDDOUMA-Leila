@@ -8,7 +8,7 @@
 
 .centre {
   width: 90%;
-  background-color: /*#434343*/ transparent;
+  background-color: /*#434343*/ yellow;
   height: 500px;
   position: absolute;
   top: 150px;
@@ -20,8 +20,8 @@
 .cards {
   top: 0px;
   height: 500px;
-  display: flex;
-  background-color: transparent;
+
+  background-color: red;
 }
 .card2 {
   margin-left: 15%;
