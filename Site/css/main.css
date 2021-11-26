@@ -1,28 +1,3 @@
-.contenue {
-  width: 70%;
-  height: auto;
-
-  display: flex;
-  flex-wrap: wrap;
-  background-color: transparent;
-  margin-top: 50px;
-}
-
-.card-work {
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-direction: column;
-  color: #717790;
-  position: relative;
-  z-index: 1;
-  width: 350px;
-  height: 240px;
-  z-index: 1;
-  margin-right: 40px;
-  margin-top: 40px;
-}
-
 .card-work:hover .card-work__tag {
   opacity: 1;
   transform: translateY(0px) !important;
