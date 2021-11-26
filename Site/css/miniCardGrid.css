@@ -5,15 +5,14 @@
 
 /* CARDS */
 /* ================================================================================= */
-@media (max-width: 650px) {
+@media only screen and (max-width: 650px) {
   .cards {
-    display: block;
-    background-color: violet;
+    /*display: block;*/
   }
 }
 .centre {
   width: 90%;
-  background-color: /*#434343*/ red;
+  background-color: /*#434343*/ transparent;
   height: 500px;
   position: absolute;
   top: 150px;
@@ -26,7 +25,7 @@
   top: 0px;
   height: 500px;
   display: flex;
-  background-color: turquoise;
+  background-color: transparent;
 }
 .card2 {
   margin-left: 15%;

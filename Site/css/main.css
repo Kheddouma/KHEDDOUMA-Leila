@@ -1,3 +1,9 @@
+@media (max-width: 650px) {
+  .slidbar {
+    visibility: hidden;
+  }
+}
+
 .main {
   width: 90%;
   height: auto;
@@ -19,67 +25,6 @@
   background-color: transparent;
   margin-top: 50px;
 }
-/*
-.block {
-  position: relative;
-  display: block;
-
-  width: 200px;
-  margin-top: 70px;
-  margin-right: 20px;
-  transform: perspective(600px) rotateY(-30deg);
-  transition: transform 0.3s;
-
-  min-width: 300px;
-  max-width: 300px;
-  height: 800px;
-  border-radius: 25px;
-  padding: 30px;
-
-  background: linear-gradient(
-    to bottom left,
-    rgba(67, 67, 67, 1),
-    rgba(161, 156, 156, 1)
-  );
-}
-
-.block img {
-  width: auto;
-  max-width: 100%;
-  border-radius: 25px;
-}
-
-.overlay {
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 2;
-  border-radius: 25px;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  -webkit-transform: translate3d(0, 0, 0);
-}
-.overlay img {
-  width: auto;
-  max-width: 50%;
-  border-radius: 25px;
-}
-
-.block.hover,
-.block:hover {
-  transform: rotateY(0);
-  cursor: pointer;
-}
-.overlay {
-  opacity: 1;
-}
-*/
 
 .card-work {
   display: flex;
