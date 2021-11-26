@@ -1,9 +1,3 @@
-@media (max-width: 650px) {
-  .slidbar {
-    visibility: hidden;
-  }
-}
-
 .main {
   width: 90%;
   height: auto;

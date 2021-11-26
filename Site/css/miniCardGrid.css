@@ -5,11 +5,7 @@
 
 /* CARDS */
 /* ================================================================================= */
-@media only screen and (max-width: 650px) {
-  .cards {
-    /*display: block;*/
-  }
-}
+
 .centre {
   width: 90%;
   background-color: /*#434343*/ transparent;

@@ -1,18 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comforter+Brush&family=Dancing+Script&family=Lobster&display=swap");
 
-@media (max-width: 490px) {
-  #apple,
-  #twitter,
-  #github,
-  #facebook {
-    visibility: hidden;
-  }
-
-  .header {
-    padding: 2rem 100px;
-  }
-}
-
 .header {
   left: 0;
   right: 0;

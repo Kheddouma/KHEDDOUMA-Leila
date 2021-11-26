@@ -1,33 +1,3 @@
-@media (max-width: 991px) {
-  /* .container {
-    background-image: none;
-  } 
-  .container label {
-    pointer-events: none;
-     visibility: hidden;
-    opacity: 0;
-  }*/
-}
-@media (max-width: 991px) {
-  .container {
-    background-image: none;
-  }
-  .container label {
-    pointer-events: none;
-    visibility: hidden;
-    opacity: 0;
-  }
-}
-@media (max-width: 660px) {
-  .container {
-    height: 80px;
-  }
-}
-@media (max-width: 610px) {
-  .container {
-    height: 110px;
-  }
-}
 /***********************************************/
 
 .menu {
