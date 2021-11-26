@@ -12,7 +12,7 @@
   }
 }
 
-/*****************************************/
+/*********************main********************/
 @media (min-width: 650px) {
   .main {
     display: flex;
@@ -26,14 +26,15 @@
     padding: 5px;
 
     flex-wrap: wrap;
-    background-color: transparent;
+    background-color: red;
   }
 }
 @media (max-width: 650px) {
   .main {
-    padding: 0;
+    width: 100%;
+    padding: 0 10%;
     margin-top: 1000px;
-    background-color: transparent;
+    background-color: yellow;
   }
 }
 
