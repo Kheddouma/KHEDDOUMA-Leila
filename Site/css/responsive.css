@@ -12,6 +12,31 @@
   }
 }
 
+/*****************************************/
+@media (min-width: 650px) {
+  .main {
+    display: flex;
+  }
+}
+
+/************************centre card********************************/
+@media (min-width: 650px) {
+  .cards {
+    display: flex;
+  }
+}
+@media (max-width: 650px) {
+  .card2 {
+    margin-top: 100px;
+  }
+
+  .card1 .box,
+  .card1 .box:before,
+  .card1 .box:after {
+    margin-left: 100px;
+  }
+}
+
 /*********************menu********************/
 
 @media (max-width: 991px) {
@@ -34,10 +59,4 @@
     height: 110px;
   }
 }
-/*********************centre cards********************/
-
-@media (min-width: 650px) {
-  .main {
-    display: flex;
-  }
-}
+/*****************************************/

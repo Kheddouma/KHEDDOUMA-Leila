@@ -1,14 +1,14 @@
 .main {
   width: 90%;
   height: auto;
-  margin-top: 600px;
+  margin-top: 700px;
   margin-left: 5%;
   border: none;
   border-radius: 16px;
   padding: 5px;
 
   flex-wrap: wrap;
-  background-color: transparent;
+  background-color: red;
 }
 .contenue {
   width: 70%;

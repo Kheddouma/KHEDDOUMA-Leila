@@ -8,7 +8,7 @@
 
 .centre {
   width: 90%;
-  background-color: /*#434343*/ yellow;
+  background-color: /*#434343*/ transparent;
   height: 500px;
   position: absolute;
   top: 150px;
@@ -21,7 +21,7 @@
   top: 0px;
   height: 500px;
 
-  background-color: red;
+  background-color: transparent;
 }
 .card2 {
   margin-left: 15%;
@@ -29,7 +29,7 @@
   padding-left: 5px;
   height: 500px;
   display: flex;
-
+  background-color: transparent;
   overflow-x: scroll;
 }
 /********************overflow  scroll start******************/
