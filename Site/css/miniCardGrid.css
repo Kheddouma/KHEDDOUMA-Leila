@@ -5,21 +5,28 @@
 
 /* CARDS */
 /* ================================================================================= */
-
+@media (max-width: 650px) {
+  .cards {
+    display: block;
+    background-color: violet;
+  }
+}
 .centre {
   width: 90%;
-  background-color: #434343;
+  background-color: /*#434343*/ red;
   height: 500px;
   position: absolute;
   top: 150px;
   border: none;
   border-radius: 16px;
+  margin-top: 150px;
   right: 5%;
 }
 .cards {
   top: 0px;
   height: 500px;
   display: flex;
+  background-color: turquoise;
 }
 .card2 {
   margin-left: 15%;

@@ -60,6 +60,9 @@ a.tag:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.container {
+  flex-wrap: wrap;
+}
 
 .container {
   position: absolute;
