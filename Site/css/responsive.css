@@ -16,6 +16,24 @@
 @media (min-width: 650px) {
   .main {
     display: flex;
+
+    width: 90%;
+    height: auto;
+    margin-top: 600px;
+    margin-left: 5%;
+    border: none;
+    border-radius: 16px;
+    padding: 5px;
+
+    flex-wrap: wrap;
+    background-color: transparent;
+  }
+}
+@media (max-width: 650px) {
+  .main {
+    padding: 0;
+    margin-top: 1000px;
+    background-color: transparent;
   }
 }
 
