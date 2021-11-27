@@ -17,21 +17,6 @@
   margin-top: 150px;
   right: 5%;
 }
-.cards {
-  top: 0px;
-  height: 500px;
-  display: flex;
-  background-color: transparent;
-}
-.card2 {
-  margin-left: 15%;
-  padding-top: 40px;
-  padding-left: 5px;
-  height: 500px;
-  display: flex;
-  background-color: transparent;
-  overflow-x: scroll;
-}
 /********************overflow  scroll start******************/
 html {
   --scrollbarBG: #434343;
