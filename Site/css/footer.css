@@ -1,39 +1,3 @@
-/*
-.footer {
-  bottom: 0;
-
-  margin-top: 200vh;
-}
-
-.site-footer {
-  bottom: 0;
-  color: antiquewhite;
-  justify-content: center;
-  align-items: center;
-  background: #18191f;
-  width: 100%;
-  height: 500px;
-  margin-top: 50px;
-}
-*/
-/*
-//autoprefixer & reset used
-//Tested on Chrome, Firefox, IE11, and iOS.  The responsiveness & the social section is a bit off on IE11.  I'm looking to fix that.
-//It would be best to break down the flex properties into logical classes.  I've actually done that more extensively on the live Pavilion site,  but I've only included one here: flex-rw.
-*/
-/*
-body {
-  font: 11px "Open Sans", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  margin: auto;
-  display: flex;
-  flex-flow: column nowrap;
-  /*This justify-content is essentially unnecessary in Firefox and Chrome due to the flex: 1 1 auto on the main.  However, it's needed to push the footer down on IE11
- 
-  justify-content: space-between;
-}
-*/
 ul {
   list-style: none;
 }
@@ -152,6 +116,7 @@ footer {
     font-size: 1.3em;
   }
 }
+
 @media only screen and (max-width: 568px) {
   main {
     font-size: 5em;
@@ -195,6 +160,7 @@ footer {
     margin-top: 10px;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .footer-social-overlap > a {
     margin: auto;
@@ -206,6 +172,7 @@ footer {
     display: block;
   }
 }
+
 @media only screen and (max-width: 320px) {
   .footer-list-header {
     font-size: 2.2em;

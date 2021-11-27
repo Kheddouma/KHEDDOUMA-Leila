@@ -20,7 +20,7 @@
 .cards {
   top: 0px;
   height: 500px;
-
+  display: flex;
   background-color: transparent;
 }
 .card2 {
