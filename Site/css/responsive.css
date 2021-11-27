@@ -46,8 +46,79 @@
 }
 
 /*********************main********************/
+@media only screen and (max-width: 650px) {
+  .main {
+    width: 100%;
+    padding: 0 5%;
+    margin-top: 1000px;
 
-@media (min-width: 650px) {
+    display: block;
+  }
+
+  .contenue {
+    width: 100%;
+
+    display: block;
+    padding: 0;
+    margin-top: 70px;
+  }
+  .card-work {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    color: #717790;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    margin-right: 0;
+    margin-top: 80px;
+    background-color: transparent;
+  }
+  .slidbar {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 0;
+  }
+
+  .actualite {
+    width: 100%;
+    height: auto;
+
+    justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 0;
+  }
+
+  .acualiteNow {
+    width: 40%;
+    height: 400px;
+    background-color: rgb(245, 244, 244);
+    border-radius: 16px;
+    margin-top: 5px;
+
+    display: inline-block;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+    min-width: 200px;
+    box-shadow: 0 3px 5px #ddd;
+    color: #555;
+  }
+}
+
+@media only screen and (min-width: 650px) {
   .main {
     display: flex;
 
@@ -84,40 +155,44 @@
     margin-right: 40px;
     margin-top: 80px;
   }
-}
-
-@media (max-width: 650px) {
-  .main {
-    width: 100%;
-    padding: 0 5%;
-    margin-top: 1000px;
-    background-color: transparent;
-  }
   .slidbar {
-    visibility: hidden;
-  }
-  .contenue {
-    width: 100%;
-    background-color: transparent;
-    display: block;
-    padding: 0;
-    margin-top: 70px;
-  }
-  .card-work {
+    width: 30%;
+    height: auto;
+    border-radius: 16px;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    color: #717790;
-    position: relative;
-    z-index: 1;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 0;
+  }
+
+  .actualite {
     width: 100%;
     height: auto;
-    z-index: 1;
-    margin-right: 0;
-    margin-top: 80px;
     background-color: transparent;
+    justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 0;
+  }
+
+  .acualiteNow {
+    width: 80%;
+    height: 400px;
+    background-color: rgb(245, 244, 244);
+    border-radius: 16px;
+    margin-top: 5px;
+
+    display: inline-block;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+    min-width: 200px;
+    box-shadow: 0 3px 5px #ddd;
+    color: #555;
   }
 }
-
 /**********************footer*******************/
