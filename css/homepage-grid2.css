@@ -40,6 +40,14 @@ time {
   text-align: center;
   text-transform: uppercase;
 }
+.homepage-grid2 h4 {
+  font-family: inkwell sans a, inkwell sans b;
+  margin: 0 0 0.15rem;
+
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #9e88f7;
+}
 
 .fun-wrap-red h2 {
   color: #f31d1d;
