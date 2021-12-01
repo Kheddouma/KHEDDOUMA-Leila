@@ -40,3 +40,19 @@ body {
   position: relative;
   z-index: 1;
 }
+
+/*
+ <div class="blog-wrap fun-wrap-red">
+                <h2>Blog Posts</h2>
+                <div class="fun-wrap">
+                    <article class="block">
+                                               <p>
+                             <img src="./img/langage-programmation-communaute.jpg" alt="">
+
+*/
+.red-img {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  cursor: pointer;
+}
