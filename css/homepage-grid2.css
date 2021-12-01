@@ -1,30 +1,4 @@
 /******************************perple*****************************************************/
-
-time {
-  font-family: "inkwell serif a", "inkwell serif b";
-  display: block;
-  font-weight: 300;
-  text-transform: uppercase;
-  margin: 0.2rem 0;
-  letter-spacing: 0.1rem;
-  color: #fff;
-}
-
-.block {
-  margin: 0 0 2rem;
-}
-.block:last-child {
-  margin-bottom: 0;
-}
-
-.fun-wrap-purple h2 {
-  color: #9e88f7;
-}
-.fun-wrap-purple .fun-wrap {
-  border-color: #9e88f7;
-  -webkit-box-shadow: 0 10px 50px rgba(158, 136, 247, 0.2);
-  box-shadow: 0 10px 50px rgba(158, 136, 247, 0.2);
-}
 .homepage-grid2 {
   display: flex;
 
@@ -32,6 +6,8 @@ time {
   grid-gap: 3rem;
   margin: 0 0 4rem;
 
+  justify-content: center;
+  align-items: center;
   margin-top: 50px;
 }
 .homepage-grid2 h2 {
@@ -48,7 +24,32 @@ time {
   cursor: pointer;
   color: #9e88f7;
 }
+time {
+  font-family: "inkwell serif a", "inkwell serif b";
+  display: block;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0.2rem 0;
+  letter-spacing: 0.1rem;
+  color: #fff;
+}
 
+.block {
+  margin: 0 0 2rem;
+}
+.block:last-child {
+  margin-bottom: 0;
+}
+/***********************************************************/
+.fun-wrap-purple h2 {
+  color: #9e88f7;
+}
+.fun-wrap-purple .fun-wrap {
+  border-color: #9e88f7;
+  -webkit-box-shadow: 0 10px 50px rgba(158, 136, 247, 0.2);
+  box-shadow: 0 10px 50px rgba(158, 136, 247, 0.2);
+}
+/***********************************************************/
 .fun-wrap-red h2 {
   color: #f31d1d;
 }
@@ -57,7 +58,7 @@ time {
   -webkit-box-shadow: 0 10px 50px rgba(158, 136, 247, 0.2);
   box-shadow: 0 10px 50px rgba(158, 136, 247, 0.2);
 }
-
+/***********************************************************/
 .fun-wrap-blue h2 {
   color: #1428d6;
 }
@@ -66,6 +67,7 @@ time {
   -webkit-box-shadow: 0 10px 50px rgba(158, 136, 247, 0.2);
   box-shadow: 0 10px 50px rgba(158, 136, 247, 0.2);
 }
+/***********************************************************/
 
 .fun-wrap-green h2 {
   color: #2ed43c;
@@ -75,3 +77,28 @@ time {
   -webkit-box-shadow: 0 10px 50px rgba(158, 136, 247, 0.2);
   box-shadow: 0 10px 50px rgba(158, 136, 247, 0.2);
 }
+/***********************************************************/
+.fun-wrap-rose h2 {
+  color: #c964b5;
+}
+.fun-wrap-rose .fun-wrap {
+  border-color: #c964b5;
+  -webkit-box-shadow: 0 10px 50px rgba(158, 136, 247, 0.2);
+  box-shadow: 0 10px 50px rgba(158, 136, 247, 0.2);
+  width: 80%;
+}
+
+/***********************************************************/
+
+.rose-img {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  cursor: pointer;
+}
+.img-bleu {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+}
+/********************************************/
