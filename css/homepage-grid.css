@@ -79,7 +79,14 @@
 .bio-choices > form:nth-of-type(3) h3 {
   color: #9e88f7;
 }
+.homepage-grid h3 {
+  font-family: inkwell sans a, inkwell sans b;
+  margin: 0 0 0.15rem;
 
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #9e88f7;
+}
 /*****************************************/
 
 .need-photo {
