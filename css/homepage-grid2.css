@@ -89,7 +89,12 @@ time {
 }
 
 /***********************************************************/
-
+.red-img {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  cursor: pointer;
+}
 .rose-img {
   width: 80%;
   height: auto;
