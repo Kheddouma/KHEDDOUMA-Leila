@@ -18,6 +18,9 @@
   margin-top: 200px;
   position: fixed;
 }
+.wrapper a {
+  color: #ffffff;
+}
 
 .wrapper .icon {
   position: relative;
@@ -70,7 +73,7 @@
 }
 
 .wrapper .icon:hover .tooltip {
-  top: -45px;
+  top: -30px;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
